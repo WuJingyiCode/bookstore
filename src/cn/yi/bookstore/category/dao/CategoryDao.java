@@ -1,6 +1,6 @@
 package cn.yi.bookstore.category.dao;
 
-import cn.yi.bookstore.category.domain.Category;
+import cn.yi.bookstore.category.bean.Category;
 import cn.yi.bookstore.util.db.DbRunner;
 
 import java.sql.SQLException;

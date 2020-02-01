@@ -1,4 +1,4 @@
-package cn.yi.bookstore.user.domain;
+package cn.yi.bookstore.user.bean;
 
 import cn.yi.bookstore.util.db.ResultSetConvertor;
 

@@ -1,20 +1,11 @@
 package cn.yi.bookstore.book.dao;
 
-import cn.itcast.commons.CommonUtils;
-import cn.itcast.jdbc.TxQueryRunner;
-import cn.yi.bookstore.book.domain.Book;
-import cn.yi.bookstore.category.domain.Category;
+import cn.yi.bookstore.book.bean.Book;
 import cn.yi.bookstore.util.db.DbRunner;
 import cn.yi.bookstore.util.db.ResultSetConvertor;
-import org.apache.commons.dbutils.QueryRunner;
-import org.apache.commons.dbutils.handlers.BeanHandler;
-import org.apache.commons.dbutils.handlers.BeanListHandler;
-import org.apache.commons.dbutils.handlers.MapHandler;
-import org.apache.commons.dbutils.handlers.ScalarHandler;
 
 import java.sql.SQLException;
 import java.util.List;
-import java.util.Map;
 
 public class BookDao {
 

@@ -2,8 +2,8 @@ package cn.yi.bookstore.order.service;
 
 import cn.itcast.jdbc.JdbcUtils;
 import cn.yi.bookstore.order.dao.OrderDao;
-import cn.yi.bookstore.order.domain.Order;
-import cn.yi.bookstore.user.domain.User;
+import cn.yi.bookstore.order.bean.Order;
+import cn.yi.bookstore.user.bean.User;
 
 import java.sql.SQLException;
 import java.util.List;

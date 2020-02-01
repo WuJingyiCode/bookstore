@@ -2,7 +2,7 @@ package cn.yi.bookstore.category.service;
 
 import cn.yi.bookstore.book.dao.BookDao;
 import cn.yi.bookstore.category.dao.CategoryDao;
-import cn.yi.bookstore.category.domain.Category;
+import cn.yi.bookstore.category.bean.Category;
 
 import java.util.List;
 

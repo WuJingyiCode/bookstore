@@ -2,7 +2,7 @@ package cn.yi.bookstore.book.service;
 
 import cn.itcast.commons.CommonUtils;
 import cn.yi.bookstore.book.dao.BookDao;
-import cn.yi.bookstore.book.domain.Book;
+import cn.yi.bookstore.book.bean.Book;
 
 import java.util.List;
 

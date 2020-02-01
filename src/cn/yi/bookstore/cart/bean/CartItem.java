@@ -1,6 +1,6 @@
-package cn.yi.bookstore.cart.domain;
+package cn.yi.bookstore.cart.bean;
 
-import cn.yi.bookstore.book.domain.Book;
+import cn.yi.bookstore.book.bean.Book;
 
 public class CartItem {
     private Book book;

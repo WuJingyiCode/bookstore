@@ -2,7 +2,7 @@ package cn.yi.bookstore.user.web.servlet;
 
 import cn.itcast.commons.CommonUtils;
 import cn.yi.bookstore.util.servlet.BaseServlet;
-import cn.yi.bookstore.user.domain.AdminUser;
+import cn.yi.bookstore.user.bean.AdminUser;
 import cn.yi.bookstore.user.service.AdminUserException;
 import cn.yi.bookstore.user.service.AdminUserService;
 

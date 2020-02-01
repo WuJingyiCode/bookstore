@@ -1,24 +1,14 @@
 package cn.yi.bookstore.order.dao;
 
-import cn.itcast.jdbc.TxQueryRunner;
-import cn.yi.bookstore.book.domain.Book;
-import cn.yi.bookstore.order.domain.Order;
-import cn.yi.bookstore.order.domain.OrderItem;
-import cn.yi.bookstore.user.domain.User;
+import cn.yi.bookstore.order.bean.Order;
+import cn.yi.bookstore.order.bean.OrderItem;
+import cn.yi.bookstore.user.bean.User;
 import cn.yi.bookstore.util.db.DbRunner;
 import cn.yi.bookstore.util.db.ResultSetConvertor;
-import org.apache.commons.dbutils.QueryRunner;
-import org.apache.commons.dbutils.handlers.BeanHandler;
-import org.apache.commons.dbutils.handlers.BeanListHandler;
-import org.apache.commons.dbutils.handlers.MapListHandler;
-import org.apache.commons.dbutils.handlers.ScalarHandler;
 
-import java.math.BigDecimal;
 import java.sql.SQLException;
 import java.sql.Timestamp;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class OrderDao {
     private DbRunner dbRunner = new DbRunner();

@@ -1,7 +1,7 @@
 package cn.yi.bookstore.category.web.servlet.admin;
 
 import cn.itcast.commons.CommonUtils;
-import cn.yi.bookstore.category.domain.Category;
+import cn.yi.bookstore.category.bean.Category;
 import cn.yi.bookstore.category.service.CategoryException;
 import cn.yi.bookstore.category.service.CategoryService;
 import cn.yi.bookstore.util.servlet.BaseServlet;

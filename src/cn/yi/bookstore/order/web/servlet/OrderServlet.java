@@ -1,14 +1,14 @@
 package cn.yi.bookstore.order.web.servlet;
 
 import cn.itcast.commons.CommonUtils;
-import cn.yi.bookstore.cart.domain.Cart;
-import cn.yi.bookstore.cart.domain.CartItem;
+import cn.yi.bookstore.cart.bean.Cart;
+import cn.yi.bookstore.cart.bean.CartItem;
 import cn.yi.bookstore.util.servlet.BaseServlet;
-import cn.yi.bookstore.order.domain.Order;
-import cn.yi.bookstore.order.domain.OrderItem;
+import cn.yi.bookstore.order.bean.Order;
+import cn.yi.bookstore.order.bean.OrderItem;
 import cn.yi.bookstore.order.service.OrderException;
 import cn.yi.bookstore.order.service.OrderService;
-import cn.yi.bookstore.user.domain.User;
+import cn.yi.bookstore.user.bean.User;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

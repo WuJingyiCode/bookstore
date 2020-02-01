@@ -42,7 +42,7 @@
 	</c:when>
 	<c:otherwise>
 		<a href="<c:url value='/jsps/user/login.jsp'/>" target="_parent">登录</a> |&nbsp;
-		<a href="<c:url value='/UserServlet?method=register'/>" target="_parent">注册</a>
+		<a href="<c:url value='/jsps/user/register.jsp'/>" target="_parent">注册</a>
 	</c:otherwise>
 </c:choose>
 </div>

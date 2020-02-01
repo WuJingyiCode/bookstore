@@ -1,6 +1,6 @@
-package cn.yi.bookstore.order.domain;
+package cn.yi.bookstore.order.bean;
 
-import cn.yi.bookstore.book.domain.Book;
+import cn.yi.bookstore.book.bean.Book;
 import cn.yi.bookstore.util.db.ResultSetConvertor;
 
 import java.sql.ResultSet;

@@ -1,9 +1,9 @@
 package cn.yi.bookstore.book.web.servlet.admin;
 
 import cn.itcast.commons.CommonUtils;
-import cn.yi.bookstore.book.domain.Book;
+import cn.yi.bookstore.book.bean.Book;
 import cn.yi.bookstore.book.service.BookService;
-import cn.yi.bookstore.category.domain.Category;
+import cn.yi.bookstore.category.bean.Category;
 import cn.yi.bookstore.category.service.CategoryService;
 import cn.yi.bookstore.util.servlet.BaseServlet;
 

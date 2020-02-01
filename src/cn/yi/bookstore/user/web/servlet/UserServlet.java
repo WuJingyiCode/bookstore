@@ -1,9 +1,9 @@
 package cn.yi.bookstore.user.web.servlet;
 
 import cn.itcast.commons.CommonUtils;
-import cn.yi.bookstore.cart.domain.Cart;
+import cn.yi.bookstore.cart.bean.Cart;
 import cn.yi.bookstore.util.servlet.BaseServlet;
-import cn.yi.bookstore.user.domain.User;
+import cn.yi.bookstore.user.bean.User;
 import cn.yi.bookstore.user.service.UserException;
 import cn.yi.bookstore.user.service.UserService;
 

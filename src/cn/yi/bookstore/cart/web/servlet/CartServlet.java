@@ -1,9 +1,9 @@
 package cn.yi.bookstore.cart.web.servlet;
 
-import cn.yi.bookstore.book.domain.Book;
+import cn.yi.bookstore.book.bean.Book;
 import cn.yi.bookstore.book.service.BookService;
-import cn.yi.bookstore.cart.domain.Cart;
-import cn.yi.bookstore.cart.domain.CartItem;
+import cn.yi.bookstore.cart.bean.Cart;
+import cn.yi.bookstore.cart.bean.CartItem;
 import cn.yi.bookstore.util.servlet.BaseServlet;
 
 import javax.servlet.http.HttpServletRequest;

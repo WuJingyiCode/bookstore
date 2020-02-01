@@ -1,8 +1,7 @@
 package cn.yi.bookstore.user.dao;
 
-import cn.yi.bookstore.user.domain.User;
+import cn.yi.bookstore.user.bean.User;
 import cn.yi.bookstore.util.db.DbRunner;
-import org.apache.commons.dbutils.handlers.BeanHandler;
 
 import java.sql.SQLException;
 

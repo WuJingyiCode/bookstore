@@ -1,7 +1,7 @@
 package cn.yi.bookstore.user.service;
 
 import cn.yi.bookstore.user.dao.AdminUserDao;
-import cn.yi.bookstore.user.domain.AdminUser;
+import cn.yi.bookstore.user.bean.AdminUser;
 
 public class AdminUserService {
     private AdminUserDao userDao = new AdminUserDao();

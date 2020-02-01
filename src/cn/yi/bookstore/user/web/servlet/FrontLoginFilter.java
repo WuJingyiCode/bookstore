@@ -1,6 +1,6 @@
 package cn.yi.bookstore.user.web.servlet;
 
-import cn.yi.bookstore.user.domain.User;
+import cn.yi.bookstore.user.bean.User;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
