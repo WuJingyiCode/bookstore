@@ -1,9 +1,9 @@
 package cn.yi.bookstore.order.service;
 
-import cn.itcast.jdbc.JdbcUtils;
-import cn.yi.bookstore.order.dao.OrderDao;
 import cn.yi.bookstore.order.bean.Order;
+import cn.yi.bookstore.order.dao.OrderDao;
 import cn.yi.bookstore.user.bean.User;
+import cn.yi.bookstore.util.db.DbConnectionManager;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -14,16 +14,16 @@ public class OrderService {
     public void addOrder(Order order) {
         try {
             //开启事务
-            JdbcUtils.beginTransaction();
+            DbConnectionManager.beginTransaction();
             orderDao.addOrder(order);
             orderDao.addOrderItemList(order.getOrderItemList());
             //提交事务
-            JdbcUtils.commitTransaction();
+            DbConnectionManager.commitTransaction();
 
         } catch (Exception e) {
             //回滚事务
             try {
-                JdbcUtils.rollbackTransaction();
+                DbConnectionManager.rollbackTransaction();
             } catch (SQLException e1) {
                 throw new RuntimeException(e1);
             }

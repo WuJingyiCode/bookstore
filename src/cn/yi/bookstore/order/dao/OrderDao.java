@@ -95,7 +95,7 @@ public class OrderDao {
     public int getOrderState(String oid) {
         try {
             String sql = "SELECT state FROM orders WHERE oid = ?";
-            return (Integer) dbRunner.queryObject(sql, ResultSetConvertor.INTEGER_CONVERTOR, oid);
+            return dbRunner.queryObject(sql, ResultSetConvertor.INTEGER_CONVERTOR, oid);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

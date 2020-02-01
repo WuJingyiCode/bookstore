@@ -34,7 +34,7 @@ public class DbConnectionManager {
      * 开启事务
      * @throws SQLException
      */
-    public static void begainTransaction() throws SQLException {
+    public static void beginTransaction() throws SQLException {
         Connection con = tl.get();
         if  (con != null) {
             throw new SQLException("事务已开启，请勿重复开启事务！");
