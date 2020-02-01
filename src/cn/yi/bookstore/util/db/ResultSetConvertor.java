@@ -7,10 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-//todo能否做成FunctionalInterface?
 public abstract class ResultSetConvertor<T> {
 
-    //todo 使用static试试
     final ResultSetHandler<T> firstRow2Object = rs -> {
         if (rs.next()) {
             return this.convert(rs);
